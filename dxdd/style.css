@@ -1,0 +1,102 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: rgb(251, 251, 251);
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-family: 'Pokemon Solid', sans-serif;
+   border: 0px;
+}
+
+#game-container {
+   text-align: center;
+}
+
+#shadow {
+   width: 200px;
+   height: 200px;
+   margin: 20px auto;
+   background-color: rgb(237, 231, 113);
+   border: 4px solid rgb(49, 67, 208);
+   position: relative;=
+}
+
+#pokemon-container {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+
+.pokemon {
+   width: 80px;
+   height: 80px;
+   background-color: rgb(255, 255, 255);
+   border: 4px solid rgb(255, 0, 0);
+   margin: 5px;
+   cursor: pointer;
+   border-radius: 15px;
+   cursor: pointer;
+   transition: transform 0.2s, background-color 0.2s;
+   float: left;
+}
+.pokemon:hover{
+   transform: scale(1.1);
+   background-color: rgb(220, 15, 15);
+   border: rgb(235, 227, 227);   
+}
+
+.hover-effect-button {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 10px 20px;
+   font-size: 16px;
+   background-color: rgb(210, 210, 252);
+   color:  black;
+   border: 3px solid rgb(63, 37, 37);
+   border-radius: 20px;
+   cursor: pointer;
+   transition: transform 0.2s, background-color 0.2s;
+}
+
+.hover-effect-button:hover {
+   transform: scale(1.1);
+   background-color: gold;
+   border: darkblue;
+
+}
+#adivinhar {
+   width: 200px;
+   height: 200px;
+   margin: 20px auto;
+   background-color: gold;
+   border: 4px solid darkblue;
+   position: relative;
+}
+
+#div1{
+   width: 80px;
+   height: 80px;
+   background-color: darkblue;
+   border: 4px solid gold;
+   margin: 5px;
+   cursor: pointer;
+   border-radius: 15px;
+   cursor: pointer;
+   transition: transform 0.2s, background-color 0.2s;
+   float: left;
+}
+#div2{
+   width: 200px;
+   height: 200px;
+   margin: 20px auto;
+   background-color: gold;
+   border: 4px solid darkblue;
+   position: relative;
+   float: left;
+}
+header{
+   margin-top: 0px;
+   background-color: darkblue;
+   border: 4px solid gold;
+}
+img{
+   height: 100%;
+}
